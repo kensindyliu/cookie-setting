@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*------------------------------------------*/
+/* Reset Style                              */
+/*------------------------------------------*/
+:root {
+    --app-detail-banner-height: 120px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline:none;
+    border-style: none;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+html,body {
+    height: 100%;
+}
+body {
+    font-family: "Nunito Sans","Open Sans", Arial, sans-serif;
+    background-color: #f7f7f7
+}
+
+
+body {
+    font-weight: 400;
+    line-height: 1.5;
+    margin-inline: auto;
+}
+
+/* .container{
+    width: min(100% - 60px, 1080px);
+    margin-inline: auto;
+} */
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(149, 143, 143); 
+}
+
+a:visited {
+    color: black;
+}
+
+h1,a, span {
+    letter-spacing: 0.3px;
+}

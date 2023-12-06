@@ -1,0 +1,96 @@
+:root {
+    --app--opacitycolor: rgba(86, 86, 86, 0.5);
+    --app-background-color: rgb(37, 37, 38);
+    --app-border-color: #3c3a3a;
+    --ap-background-color-other: rgb(86, 86, 86);
+    --app--facebook-Color:#1877F2;
+    --app--hover-color: #0e4791;
+    --app--time-color:#FFD700;
+}
+
+.container {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div{
+    width: 50%;
+}
+
+.dialog {
+    /* display: grid; */
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--app--opacitycolor); 
+    place-items: center; 
+    backdrop-filter: blur(2px);
+}
+
+#subDialog {
+    background-color: var(--app--time-color);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 256px;
+}
+
+button {
+    background-color: var(--app--facebook-Color);
+    color: white;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--app--hover-color);
+}
+
+.dvOperation1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dvSetting{
+    display: none;
+    /* display: grid; */
+}
+
+#dvSetting div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#dvAcceptAll {
+    /* display: none; */
+    display: grid;
+}
+
+#dvAcceptAll P{
+    margin: 10px 0px;
+}
+
+#dvSetting p{
+    line-height: 34px;
+}
+
+#dvSetting button {
+    width: 120px;
+    margin-top: 15px;
+}
+
+h3 {
+    font-weight: 800;
+}
+
+#dvSetting h3{
+    margin-bottom: 10px;
+}
