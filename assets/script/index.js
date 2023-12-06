@@ -69,7 +69,7 @@ function checkCookies(){
     let os = getCookie('Operating system');
     let screenWidth = getCookie('Screen width');
     let screenHeight = getCookie('Screen height');
-    if(!isNull(browser) || !isNull(os) || !isNull(screenWidth) || !isNull(screenHeight)){
+    if(isNull(browser) || isNull(os) || isNull(screenWidth) || isNull(screenHeight)){
         dialog.style.display = 'grid'; 
     }
 }
